@@ -48,9 +48,7 @@ public class TicTacToe {
         return true;
     }
 
-    public String getWinner() {
-        return null;
-    }
+    public String getWinner() { return null;}
 
     public String[][] getBoard() {
         return null;

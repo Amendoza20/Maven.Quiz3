@@ -1,5 +1,8 @@
 package rocks.zipcode.io.quiz3.generics;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.Objects;
 import java.util.function.Function;
 
 /**
@@ -56,6 +59,10 @@ public class ArrayUtility<SomeType> {
     }
 
     public SomeType[] filter(Function<SomeType, Boolean> predicate) {
-        return null;
+
+        List<SomeType> list = Arrays.asList(array);
+
+        return null;//list.stream().filter();
+        
     }
 }

@@ -15,8 +15,7 @@ public class Lab {
         return null;
     }
 
-    public void setStatus(LabStatus labStatus) {
-    }
+    public void setStatus(LabStatus labStatus){}
 
     public LabStatus getStatus() {
         return null;
